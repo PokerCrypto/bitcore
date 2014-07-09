@@ -17,7 +17,7 @@ describe('Peer', function() {
     should.exist(Peer);
   });
   it('should be able to create instance', function() {
-    var p = new Peer('localhost', 8333);
+    var p = new Peer('localhost', 8608);
     should.exist(p);
   });
 });

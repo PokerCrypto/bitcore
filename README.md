@@ -90,7 +90,7 @@ For this example you need a running bitcoind instance.
     network: 'testnet'
   });
 
-  peerman.addPeer(new Peer('127.0.0.1', 18333));
+  peerman.addPeer(new Peer('127.0.0.1', 18608));
 
   peerman.on('connection', function(conn) {
     conn.on('inv', handleInv);
@@ -117,7 +117,7 @@ var config = {
   user: 'user',
   pass: 'pass',
   host: '127.0.0.1',
-  port: '18332',
+  port: '18607',
 };
 
 var rpc = new RpcClient(config);
@@ -177,7 +177,7 @@ can be found on the source file.
   var peerman = new PeerManager({
     network: 'testnet'
   });
-  peerman.addPeer(new Peer('127.0.0.1', 18333));
+  peerman.addPeer(new Peer('127.0.0.1', 18608));
 
   peerman.on('connect', function() {
     var conn = peerman.getActiveConnection();
