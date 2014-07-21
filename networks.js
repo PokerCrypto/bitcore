@@ -11,14 +11,14 @@ exports.livenet = {
   hkeyPublicVersion: 0x0488b21e,
   hkeyPrivateVersion: 0x0488ade4,
   genesisBlock: {
-    hash: hex('79ba4a8a2394af001c0b73dd30c63258579d001f8469c55e8ccc64de932149e8'),
-    merkle_root: hex('edfffb6e330631cac324c1c212787a803c71ba9020da96ef284370c2b90debab'),
+    hash: hex('79BA4A8A2394AF001C0B73DD30C63258579D001F8469C55E8CCC64DE932149E8'),
+    merkle_root: hex('EDFFFB6E330631CAC324C1C212787A803C71BA9020DA96EF284370C2B90DEBAB'),
     height: 0,
     nonce: 4242852485,
     version: 1,
     prev_hash: buffertools.fill(new Buffer(32), 0),
     timestamp: 1398689365,
-    bits: 486604799,
+    bits: 504365040,
   },
   dnsSeeds: [
     'dnsseed1.applebyte.me',
